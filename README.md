@@ -1,38 +1,70 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+# TRINCA TESTE | CRA
+
+### Projeto criado para teste de admissão na <strong>TRINCA</strong> onde foi desenvolvido uma plataforma web onde podemos cadastrar datas para churrascos e adicionar convidados e valores de contribuição.
+
+<hr>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
+  <a href="#-tecnologias-utilizadas">Tecnologias</a> -
+  <a href="#-resultado-aplicação-web">Resultado WEB</a> -
+  <a href="#-como-executar">Como executar</a>
 </p>
 
+<a id="-tecnologias-utilizadas"></a>
 
-## 💻 Projeto
+## Tecnologias utilizadas
 
-ignite-reactjs-03-dt-money
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
+### Algumas das tecnologias usadas no projeto.
 
 <p align="center">
-  Feito com 💜 by Rocketseat
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/StyledComponents-339933?style=for-the-badge&logo=styled-components&logoColor=white%22"/>
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ts--node--dev-3178C6?style=for-the-badge&logo=ts-node-dev&logoColor=white"/>
 </p>
 
+<a id="-resultado-aplicação-web"></a>
 
-<!--START_SECTION:footer-->
+## Resultado Aplicação WEB
 
-<br />
-<br />
+<img width=100% src="./public/image.png"/>
 
 <p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
 
-<!--END_SECTION:footer-->
+<a id="-como-executar"></a>
 
+## Como executar
+
+Para executar as aplicações seguir os procedimentos abaixo:
+
+-- Procedimento iniciar aplicação WEB --
+
+- Acessar primeiro o diretório web com o comando
+
+```bash
+cd trinca-teste-next
+```
+
+- Instalar as dependências da aplicação WEB
+
+```bash
+npm install
+```
+
+- Iniciar a aplicação web com o comando
+
+```bash
+npm run dev
+```
+
+- É necessário rodar a api local para a aplicação funcionar
+
+- Iniciar a API JSON com o comando
+
+```bash
+npx json-server server.json -p 3333 -w -d
+```
