@@ -46,7 +46,7 @@ Para executar as aplicações seguir os procedimentos abaixo:
 - Acessar primeiro o diretório web com o comando
 
 ```bash
-cd trinca-teste-next
+cd trinca-teste-cra
 ```
 
 - Instalar as dependências da aplicação WEB
@@ -60,6 +60,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+- A aplicação deve rodar na porta 5173. Se na sua máquina estiver em outra porta, altere o arquivo next.config.js do trinca-teste-next.
 
 - É necessário rodar a api local para a aplicação funcionar
 
